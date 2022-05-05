@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+    background-color: #dfe4ea;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0 20px 10px;
+}
+
+p {
+    margin: 20px 0 20px 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 20px 40px;
+}
+
+ul li{
+    margin-bottom: 1px;
+}
+
+ul li span {
+    color: white;
+    font-size: 14px;
+    padding: 1px;
+    background-color: green;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+/* ul img {
+   
+    margin-right: 15px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    margin-bottom: -6px;
+    outline-offset: -15px;
+} */
+
+table {
+    margin: 10px 0 20px 10px;
+}
+
+table,
+th, 
+tr, 
+td {
+    border: 1px solid grey;
+}
+
+th,
+td {
+    padding: 0 15px 0 15px;
+}
+
+tr:first-child {
+    color: white;
+    background-color: #3867d6;
+    border-bottom: 2px solid grey;
+}
+
+.first-row {
+    padding: 5px;
+}
+
+th:first-child {
+    border-radius: 10px;
+}
+
+th:last-child {
+    border-radius: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #a5b1c2;
+}
+
+.change {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 1px solid grey;
+    margin: 10px 0 10px 10px;
+    width: 25%;
+    background-color: white;
+}
+
+legend {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: white;
+}
+
+fieldset>div {
+    margin-left: 20px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+fieldset>div input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+}
+
+fieldset>div select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+}
+
+fieldset>div input[type="radio"] {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+}
+
+.third {
+    margin-top: 20px;
+}
+
+#city {
+    font-size: 12px;
+}
+
+.separate>div span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 54%;
+}
+
+.separate>div:last-child span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 65%;
+}
+
+.separate>div:last-child input[type="radio"] {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 61%;
+}
+
+
+
+input[type="submit"] {
+    border-radius: 10px;
+    border: 2px solid darkgrey;
+    color: white;
+    background-color: darkgreen;
+    margin-left: 20%;
+    font-size: 12px;
+    padding: 2px 8px 4px 8px;
+}
