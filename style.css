@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  font-family: 'Radio Canada', sans-serif;
+  height: 600px;
+  width: 90%;
+  margin: auto;
+  transform: translateY(50px);
+  position: relative; 
+  background-image: url("./boards.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section::before {
+  content: "";
+ 
+  position: absolute;
+  top: 250px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(2, 61, 86));
+  
+}
+
+div {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(50%, 50%);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.6;
+    padding-bottom: 25px;
+    letter-spacing: 1.5px;
+}
+
+p:last-child {
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+form{
+  background-color: #171817;
+  border-radius: 5px;
+  width: 65%;
+  height: 60px;
+  padding-top: 10px;
+  margin: auto;
+}
+
+input[type="submit"]{
+  background-color: #05acf3;
+  color: white;
+  border: 1px solid #05acf3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:first-child {
+  margin-right: 15px;
+  padding: 10px 55px 10px 10px;
+  border-radius: 5px;
+}
